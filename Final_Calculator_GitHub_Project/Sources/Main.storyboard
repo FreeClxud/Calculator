@@ -1,0 +1,43 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Calculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <subviews>
+                            <label text="0" textAlignment="right" fontDescription="system" translatesAutoresizingMaskIntoConstraints="NO" id="displayLabel"/>
+                            <stackView axis="vertical" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="stackView-main">
+                                <subviews>
+                                    <stackView axis="horizontal" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="row1">
+                                        <subviews>
+                                            <button title="1" backgroundColor="systemGray" id="button1"/>
+                                            <button title="2" backgroundColor="systemGray" id="button2"/>
+                                            <button title="3" backgroundColor="systemGray" id="button3"/>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView axis="horizontal" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="row2">
+                                        <subviews>
+                                            <button title="4" backgroundColor="systemGray" id="button4"/>
+                                            <button title="5" backgroundColor="systemGray" id="button5"/>
+                                            <button title="6" backgroundColor="systemGray" id="button6"/>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="displayLabel" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20" id="constraint-label-top"/>
+                            <constraint firstItem="stackView-main" firstAttribute="top" secondItem="displayLabel" secondAttribute="bottom" constant="10" id="constraint-stackView-top"/>
+                            <constraint firstItem="stackView-main" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="constraint-stackView-leading"/>
+                            <constraint firstItem="stackView-main" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" constant="-10" id="constraint-stackView-trailing"/>
+                        </constraints>
+                    </view>
+                </viewController>
+            </objects>
+        </scene>
+    </scenes>
+</document>
