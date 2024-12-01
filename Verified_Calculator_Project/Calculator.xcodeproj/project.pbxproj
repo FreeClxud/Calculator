@@ -1,0 +1,76 @@
+
+// !$*UTF8*$!
+{
+  archiveVersion = 1;
+  classes = {};
+  objectVersion = 50;
+  objects = {
+
+    /* Begin PBXBuildFile section */
+    1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2 /* AppDelegate.swift */; };
+    3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4 /* ViewController.swift */; };
+    /* End PBXBuildFile section */
+
+    /* Begin PBXFileReference section */
+    2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+    4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+    5 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+    6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+    /* End PBXFileReference section */
+
+    /* Begin PBXGroup section */
+    7 /* Calculator */ = {
+      isa = PBXGroup;
+      children = (
+        2 /* AppDelegate.swift */,
+        4 /* ViewController.swift */,
+        5 /* Main.storyboard */,
+        6 /* Info.plist */,
+      );
+      sourceTree = "<group>";
+    };
+    /* End PBXGroup section */
+
+    /* Begin PBXNativeTarget section */
+    8 /* Calculator */ = {
+      isa = PBXNativeTarget;
+      buildConfigurationList = 9 /* Build configuration list for PBXNativeTarget "Calculator" */;
+      buildPhases = (
+        10 /* Sources */,
+      );
+      dependencies = ();
+      name = Calculator;
+      productName = Calculator;
+      productType = "com.apple.product-type.application";
+    };
+    /* End PBXNativeTarget section */
+
+    /* Begin PBXSourcesBuildPhase section */
+    10 /* Sources */ = {
+      isa = PBXSourcesBuildPhase;
+      files = (
+        1 /* AppDelegate.swift in Sources */,
+        3 /* ViewController.swift in Sources */,
+      );
+    };
+    /* End PBXSourcesBuildPhase section */
+
+    /* Begin XCBuildConfiguration section */
+    11 /* Debug */ = {isa = XCBuildConfiguration; name = Debug; };
+    12 /* Release */ = {isa = XCBuildConfiguration; name = Release; };
+    /* End XCBuildConfiguration section */
+
+    /* Begin XCConfigurationList section */
+    9 /* Build configuration list for PBXNativeTarget "Calculator" */ = {
+      isa = XCConfigurationList;
+      buildConfigurations = (
+        11 /* Debug */,
+        12 /* Release */,
+      );
+      defaultConfigurationName = Debug;
+    };
+    /* End XCConfigurationList section */
+  };
+
+  rootObject = 8 /* Calculator */;
+}
